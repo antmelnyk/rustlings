@@ -12,7 +12,7 @@
 
 fn calculate_apple_price(quantity: i32) -> i32 {
     if quantity < 1 {
-        return 0
+        return 0;
     }
 
     if quantity > 40 {
